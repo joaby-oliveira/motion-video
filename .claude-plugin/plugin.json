@@ -1,0 +1,13 @@
+{
+  "name": "motion-video",
+  "version": "0.1.0",
+  "description": "Transforma gravações brutas de talking head em um vídeo curto editado, com legenda e motion design (8 estilos, 6 modelos de legenda), usando Claude Code, freecut e Remotion.",
+  "author": {
+    "name": "joaby-oliveira",
+    "url": "https://github.com/joaby-oliveira"
+  },
+  "homepage": "https://github.com/joaby-oliveira/motion-video",
+  "repository": "https://github.com/joaby-oliveira/motion-video",
+  "license": "MIT",
+  "keywords": ["video", "motion-design", "remotion", "subtitles", "shorts", "reels", "ffmpeg", "whisper"]
+}

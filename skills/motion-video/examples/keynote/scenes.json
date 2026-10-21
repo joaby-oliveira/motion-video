@@ -1,0 +1,273 @@
+{
+  "source": "edit/base_nosubs.mp4",
+  "transcript": "edit/verify/cut_tx/transcripts/base_nosubs.json",
+  "theme": "src/theme.ts",
+  "duration": 89.7,
+  "rules": {
+    "max_density": "1 scene per ~8s (shortest gap between scene starts: 7.7s)",
+    "spoken": "exact words from the transcript (ASR errors corrected: Large Language Model, ChatGPT, Claude, 'que nem uma pessoa')",
+    "on_screen": "what appears on screen: few words, one idea per screen",
+    "cues": "time when each element enters, synced to the spoken word"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "start": 4.18,
+      "end": 10.98,
+      "type": "title_definition",
+      "video_mode": "card",
+      "spoken": "o que é uma LLM. LLM significa Large Language Model, que em português é grande modelo de linguagem.",
+      "on_screen": [
+        "O que é uma LLM?",
+        "Large Language Model",
+        "Grande Modelo de Linguagem"
+      ],
+      "cues": [
+        {
+          "t": 4.18,
+          "show": "O que é uma LLM?"
+        },
+        {
+          "t": 6.78,
+          "show": "Large Language Model",
+          "note": "replaces the title"
+        },
+        {
+          "t": 9.34,
+          "show": "Grande Modelo de Linguagem",
+          "note": "enters below, in the accent color"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 13.46,
+      "end": 20.46,
+      "type": "list",
+      "video_mode": "card",
+      "spoken": "um robô que consumiu muitos livros, códigos, artigos, músicas, tudo que existe na internet",
+      "on_screen": [
+        "Livros",
+        "Códigos",
+        "Artigos",
+        "Músicas",
+        "Tudo que existe na internet"
+      ],
+      "cues": [
+        {
+          "t": 15.16,
+          "show": "Livros"
+        },
+        {
+          "t": 15.9,
+          "show": "Códigos"
+        },
+        {
+          "t": 16.64,
+          "show": "Artigos"
+        },
+        {
+          "t": 17.84,
+          "show": "Músicas"
+        },
+        {
+          "t": 19.44,
+          "show": "Tudo que existe na internet",
+          "note": "the four items fade out; this line takes over the screen"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 28.94,
+      "end": 32.2,
+      "type": "key_phrase",
+      "video_mode": "full",
+      "spoken": "Esse robô se lembra dos padrões e das palavras",
+      "on_screen": [
+        "Padrões e palavras."
+      ],
+      "cues": [
+        {
+          "t": 30.72,
+          "show": "Padrões e palavras."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 36.68,
+      "end": 44.44,
+      "type": "comparison",
+      "video_mode": "card",
+      "spoken": "o seu teclado que te sugere as palavras mais prováveis que você vai escrever conforme você digita alguma palavra. A LLM funciona da mesma forma",
+      "on_screen": {
+        "left": {
+          "title": "Seu teclado",
+          "detail": "sugere a próxima palavra"
+        },
+        "right": {
+          "title": "LLM",
+          "detail": "da mesma forma"
+        }
+      },
+      "cues": [
+        {
+          "t": 36.74,
+          "show": "left: Seu teclado"
+        },
+        {
+          "t": 37.48,
+          "show": "left detail + minimal suggestion bar with 3 words"
+        },
+        {
+          "t": 42.78,
+          "show": "right: LLM",
+          "note": "the right side gets the accent color"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 44.68,
+      "end": 49.6,
+      "type": "key_phrase",
+      "video_mode": "full",
+      "spoken": "palavra por palavra ele escolhe o que faz mais sentido. Então ele não é inteligente de fato",
+      "on_screen": [
+        "Palavra por palavra.",
+        "Não é inteligente de fato."
+      ],
+      "cues": [
+        {
+          "t": 44.84,
+          "show": "Palavra por palavra.",
+          "note": "each word enters on its own, following the speech"
+        },
+        {
+          "t": 48.28,
+          "show": "Não é inteligente de fato.",
+          "note": "replaces the previous line"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 55.04,
+      "end": 64.56,
+      "type": "myth_vs_fact",
+      "video_mode": "card",
+      "spoken": "a LLM iria tomar o mundo ou a LLM iria se revoltar contra os seres humanos e criar uma inteligência. A LLM não é consciente",
+      "on_screen": {
+        "myth": "Vai tomar o mundo?",
+        "fact": "Não é consciente."
+      },
+      "cues": [
+        {
+          "t": 55.78,
+          "show": "Vai tomar o mundo?",
+          "note": "gray text, secondary color"
+        },
+        {
+          "t": 63.32,
+          "show": "fine line strikes through the myth; 'Não é consciente.' enters in white"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 66.34,
+      "end": 70.94,
+      "type": "key_phrase",
+      "video_mode": "card",
+      "spoken": "ela só prevê palavras com base nos padrões e no contexto que ela já tem",
+      "on_screen": [
+        "Ela só prevê palavras."
+      ],
+      "cues": [
+        {
+          "t": 66.48,
+          "show": "Ela só prevê palavras.",
+          "note": "'prevê' in the accent color"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 74.04,
+      "end": 82.9,
+      "type": "list",
+      "video_mode": "card",
+      "spoken": "Você já usou uma LLM? Provavelmente. ChatGPT, Claude, Codex, Gemini, todos eles são modelos de linguagem.",
+      "on_screen": [
+        "Você já usou uma LLM?",
+        "ChatGPT",
+        "Claude",
+        "Codex",
+        "Gemini"
+      ],
+      "cues": [
+        {
+          "t": 74.04,
+          "show": "Você já usou uma LLM?"
+        },
+        {
+          "t": 76.38,
+          "show": "ChatGPT",
+          "note": "text only, no logos (rule in theme.ts)"
+        },
+        {
+          "t": 77.16,
+          "show": "Claude"
+        },
+        {
+          "t": 77.86,
+          "show": "Codex"
+        },
+        {
+          "t": 79.28,
+          "show": "Gemini"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 84.68,
+      "end": 89.7,
+      "type": "cta",
+      "video_mode": "card",
+      "spoken": "comenta aqui embaixo qual palavra você quer saber o significado",
+      "on_screen": [
+        "Qual é a próxima palavra?",
+        "Comenta aqui embaixo."
+      ],
+      "cues": [
+        {
+          "t": 85.34,
+          "show": "Qual é a próxima palavra?"
+        },
+        {
+          "t": 86.8,
+          "show": "Comenta aqui embaixo.",
+          "note": "secondary color, holds until the end"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "start": 71.1,
+      "end": 73.9,
+      "spoken": "às vezes ela acerta muito, só que às vezes também ela pode errar",
+      "reason": "Starts 4.8s after scene 7 and would break the density limit."
+    },
+    {
+      "start": 26.84,
+      "end": 28.94,
+      "spoken": "E aí como é que funciona? Você faz uma pergunta para ele.",
+      "reason": "Transition line; the video carries it on its own."
+    }
+  ],
+  "style": "Keynote",
+  "captions": "Pílula"
+}

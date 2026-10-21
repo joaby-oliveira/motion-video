@@ -1,0 +1,14 @@
+{
+  "name": "motion-video",
+  "owner": {
+    "name": "joaby-oliveira",
+    "url": "https://github.com/joaby-oliveira"
+  },
+  "plugins": [
+    {
+      "name": "motion-video",
+      "source": "./",
+      "description": "Vídeos curtos editados, legendados e com motion design a partir de gravações brutas."
+    }
+  ]
+}
